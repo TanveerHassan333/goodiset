@@ -105,15 +105,33 @@
               aria-label="Email Address"
             />
             <button
-              style="
-                border-bottom-right-radius: 7px;
-                border-top-right-radius: 7px;
-              "
-              type="submit"
-              class="py-2 px-4 bg-white text-[#E92827] text-[13px] font-normal font-['Caprasimo'] hover:bg-gray-100 transition-colors duration-200"
-            >
-              SUBSCRIBE
-            </button>
+  style="
+    border-bottom-right-radius: 7px;
+    border-top-right-radius: 7px;
+  "
+  type="submit"
+  class="py-2 md:px-4 px-2 bg-white text-[#E92827] text-[13px] font-normal font-['Caprasimo'] hover:bg-gray-100 transition-colors duration-200 flex items-center gap-2"
+>
+  <span class="hidden md:inline text-[15px]">
+    SUBSCRIBE
+  </span>
+  <svg
+    class="md:hidden" 
+    xmlns="http://www.w3.org/2000/svg"
+    width="20"
+    height="20"
+    viewBox="0 0 24 24"
+    fill="none"
+    stroke="currentColor"
+    stroke-width="2"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  >
+    <path d="M14.536 21.686a.5.5 0 0 0 .937-.024l6.5-19a.496.496 0 0 0-.635-.635l-19 6.5a.5.5 0 0 0-.024.937l7.93 3.18a2 2 0 0 1 1.112 1.11z"/>
+    <path d="m21.854 2.147-10.94 10.939"/>
+  </svg>
+</button>
+
           </form>
 
           <div class="flex space-x-4">

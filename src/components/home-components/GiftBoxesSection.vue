@@ -19,11 +19,6 @@
                     :alt="box.title"
                     class="w-full h-full object-cover hover:scale-110 transition-transform duration-500"
                   />
-                  <div
-                    class="absolute top-4 right-4 bg-[#E92827] text-white px-3 py-1.5 rounded-full text-xs font-bold"
-                  >
-                    {{ box.discount }}
-                  </div>
                 </div>
                 <div class="p-4 md:p-5 md:text-start text-center mb-2">
                   <p class="text-md font-semibold text-[#303030] leading-tight">

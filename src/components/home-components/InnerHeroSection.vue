@@ -60,7 +60,7 @@
             </p>
 
             <h1
-              class="font-['Caprasimo'] font-semibold text-3xl sm:text-4xl lg:text-3xl xl:text-[3.2rem] text-[#2D2D2D] mb-6 leading-tight animate-slideIn"
+              class="font-['Caprasimo'] font-semibold text-2xl md:text-[48px] text-[#2D2D2D] mb-6 leading-tight animate-slideIn"
             >
               Make Every Moment Sweeter with Goodiset! 🎉
             </h1>
@@ -105,8 +105,6 @@ const exploreCollections = () => {
 @import url("https://fonts.googleapis.com/css2?family=Caprasimo&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap");
 h1 {
   font-family: "Caprasimo", serif;
-  font-weight: 400;
-  font-size: 48px;
 }
 
 @keyframes float {
