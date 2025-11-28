@@ -1,12 +1,12 @@
 <template>
   <section
-    class="relative w-full min-h-[90vh] flex items-center hero-section md:py-0 py-4"
+    class="relative w-full min-h-[90vh] flex items-center hero-section md:py-0"
   >
     <div class="absolute inset-0 bg-black/40"></div>
     <div class="relative z-10 w-full max-w-7xl mx-auto px-6 lg:px-16">
       <div class="max-w-3xl text-white">
         <h1
-          class="font-['Caprasimo'] md:font-extrabold font-semibold leading-tight text-2xl md:text-[64px] mb-6"
+          class="font-['Caprasimo'] md:font-extrabold font-semibold leading-tight text-3xl md:text-[64px] mb-6"
         >
           Get Your Favorite <br />
           Candies Delivered to <br />
