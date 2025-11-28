@@ -1,6 +1,6 @@
 <template>
   <section
-    class="relative w-full min-h-[90vh] flex items-center hero-section md:py-0"
+    class="relative w-full md:min-h-[90vh] min-h-[80vh] flex items-center hero-section md:py-0"
   >
     <div class="absolute inset-0 bg-black/40"></div>
     <div class="relative z-10 w-full max-w-7xl mx-auto px-6 lg:px-16">
